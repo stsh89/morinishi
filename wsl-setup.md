@@ -25,7 +25,7 @@ pacman -S openssh git git-delta helix gcc make libyaml
 ## Distro setup
 
 ````
-wsl -u stan --cd /home/stan
+wsl -d archlinux -u stan --cd /home/stan
 ````
 
 ````
