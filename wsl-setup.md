@@ -19,7 +19,7 @@ pacman -Syu
 ````
 
 ````
-pacman -S openssh git helix
+pacman -S openssh git git-delta helix gcc make libyaml
 ````
 
 ## Distro setup
@@ -64,6 +64,24 @@ git config --global delta.navigate true
 
 ```
 git config --global merge.conflictStyle zdiff3
+```
+
+## Project setup
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+```
+curl https://mise.run | sh
+```
+
+```
+echo "eval \"\$(/home/stan/.local/bin/mise activate bash)\"" >> ~/.bashrc
+```
+
+```
+mise use ruby@3.4.6
 ```
 
 ## Common usage
