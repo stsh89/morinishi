@@ -90,7 +90,7 @@ echo "eval \"\$(/home/stan/.local/bin/mise activate bash)\"" >> ~/.bashrc
 ```
 
 ```
-mise use ruby@3.4.6
+mise install ruby@3.4.6
 ```
 
 ## Common usage
