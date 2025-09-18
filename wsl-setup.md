@@ -96,7 +96,7 @@ mise use ruby@3.4.6
 ## Common usage
 
 ````
-wsl -u stan --cd /home/stan/morinishi
+wsl -d archlinux -u stan --cd /home/stan/morinishi
 ````
 
 ## Delete distribution
