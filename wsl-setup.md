@@ -36,6 +36,15 @@ ssh-keygen -t ed25519 -C "stanislavshandyga@gmail.com"
 git clone git@github.com:stsh89/morinishi.git
 ```
 
+### VS Code setup
+
+Update `/etc/wsl.conf`
+
+```
+[user]
+default=stan
+```
+
 ### Git setup
 
 ```
